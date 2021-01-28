@@ -12,10 +12,17 @@ const products = [
   { name: 'Захват', price: 1200, quantity: 2 },
 ];
 
-const calculateTotalPrice = function(allProdcuts, productName) {
+const calculateTotalPrice = function(allProducts, productName) {
 
-  
-  // твой код
+  let total = 0;
+
+  for (const allProduct of allProducts) {
+    if (productName === allProduct.name) {
+      return total += product.price * product.quantity 
+    }
+      
+    
+  } 
 };
 
 /*
